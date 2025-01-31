@@ -14,7 +14,6 @@ bash
 Copy
 Edit
 git clone https://github.com/Flying-Bison/Taskk.git
-cd BharatFD
 This will create a local copy of the project and navigate you to the project directory.
 
 2. Set Up the Backend
@@ -43,7 +42,7 @@ The backend will now be running locally.
 3. Set Up the Frontend 
 To run the frontend, follow these steps:
 
-Navigate to the Client Directory: Change to the client directory:
+Navigate to the Frontend Directory: Change to the Frontend directory:
 
 bash
 Copy
