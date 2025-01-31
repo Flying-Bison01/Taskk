@@ -1,37 +1,81 @@
-## <a name="tech-stack">⚙️ Tech Stack</a>
-- ReactJs
-- NodeJs
-- MongoDB
+🛠️ Tech Stack
+The project is built with the following technologies:
 
-## <a name="quick-start">Quick Start</a>
+ReactJS: Frontend framework for building the user interface.
+NodeJS: Backend runtime for handling server-side logic.
+MongoDB: NoSQL database for storing and managing data.
+🚀 Quick Start Guide
+Follow these steps to set up the project locally on your machine:
 
-Follow these steps to set up the project locally on your machine
+1. Clone the Repository
+Start by cloning the repository to your local machine:
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/AnuragSingh012/BharatFD.git
+bash
+Copy
+Edit
+git clone https://github.com/Flying-Bison/Taskk.git
 cd BharatFD
-```
+This will create a local copy of the project and navigate you to the project directory.
 
-**Install dependencies and start the backend**
+2. Set Up the Backend
+To run the backend, follow these steps:
 
-```bash
-cd server
-npm install && node server.js
-```
+Navigate to the Server Directory: Change to the server directory:
 
-**Install dependencies and start the frontend**
+bash
+Copy
+Edit
+cd backend
+Install Backend Dependencies: Install the required NodeJS packages:
 
-```bash
-cd client
-npm install && npm run dev
-```
+bash
+Copy
+Edit
+npm install
+Start the Backend Server: After the dependencies are installed, start the server:
 
-In the server directory, create a `.env` file and add the following content:
+bash
+Copy
+Edit
+node server.js
+The backend will now be running locally.
 
-```env
-MONGODB_URL=
-```
+3. Set Up the Frontend 
+To run the frontend, follow these steps:
 
-Replace the placeholder values with your actual respective account credentials
+Navigate to the Client Directory: Change to the client directory:
+
+bash
+Copy
+Edit
+cd frontend
+Install Frontend Dependencies: Install the necessary packages for the frontend:
+
+bash
+Copy
+Edit
+npm install
+Start the Frontend Development Server: After the installation completes, start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+The frontend will now be live and accessible.
+
+4. Configure MongoDB Connection
+In order to connect to your MongoDB database, follow these steps:
+
+Create a .env File: In the server directory, create a .env file.
+
+Add MongoDB Connection URL: In the .env file, add your MongoDB connection string:
+
+env
+Copy
+Edit
+MONGODB_URL=your_mongodb_connection_url
+Make sure to replace your_mongodb_connection_url with the actual MongoDB URL you’re using. This will allow the backend to connect to your database.
+
+Notes:
+Environment Variables: You may need additional environment variables depending on your specific setup. Make sure to check the .env file in the repository for any other required configurations.
+MongoDB Setup: If you're using a cloud-based MongoDB solution (like MongoDB Atlas), ensure that your cluster is set up and your credentials are correctly configured.
